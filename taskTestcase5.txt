@@ -1,0 +1,6 @@
+@Test(priority = 1)
+	public void Stringurl() {
+		tp.url();
+		System.out.println("TeskTest Url " + tp.url());
+		Assert.assertEquals(tp.url(), "https://am.dbw0bjyvnpgi3.amplifyapp.com/");
+	}
