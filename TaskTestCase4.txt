@@ -1,0 +1,5 @@
+@Test(priority = 2)
+	public void textTitle() throws InterruptedException {
+		tp.Title();
+
+	}
