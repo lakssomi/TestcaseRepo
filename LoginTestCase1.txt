@@ -1,0 +1,7 @@
+@Test(priority = 1)
+
+	public void uRl() {
+		lg.url();
+		System.out.println("Login Page Url " + lg.url());
+		Assert.assertEquals(lg.url(), "https://am.dbw0bjyvnpgi3.amplifyapp.com/login");
+	}
