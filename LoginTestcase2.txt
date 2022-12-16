@@ -1,8 +1,0 @@
-@Test(priority = 2)
-	public void signin() {
-		System.out.println("Inside signin" + cfr.getUserName());
-		System.out.println("Inside signin" + cfr.getPassWord());
-
-		lg.SignIn(cfr.getUserName(), cfr.getPassWord());
-
-	}
